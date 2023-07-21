@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>
+    <%= title %>
+  </title>
+  <link rel='stylesheet' href='/stylesheets/style.css' />
+</head>
+
+<body>
+  <h1>
+    <%= title %>
+  </h1>
+  <p>Welcome to <%= sub %>
+  </p>
+  <table>
+    <thead>
+      <tr>
+        <th>ID#</th>
+        <th>Term</th>
+        <th>Description</th>
+        <th>References</th>
+      </tr>
+    </thead>
+    <tbody>
+      <% name.forEach((item)=> { %>
+        <tr>
+          <td>
+            <%= name.id %>
+          </td>
+          <td>
+            <%= name.term %>
+          </td>
+          <td>
+            <%= name.description %>
+          </td>
+          <td>
+            <% name.references.forEach((reference) => { %>
+              <p><%= reference %></p>
+            <% }) %>
+          </td>
+        </tr>
+      <% }) %>
+    </tbody>
+  </table>
+  
+</body>
+
+</html>
