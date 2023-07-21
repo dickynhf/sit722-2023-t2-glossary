@@ -14,7 +14,7 @@
   </h1>
   <p>Welcome to <%= sub %>
   </p>
-  <table>
+  <table style="border-collapse: collapse;">
     <thead>
       <tr>
         <th>ID#</th>
@@ -27,24 +27,26 @@
       <% name.forEach((item)=> { %>
         <tr>
           <td>
-            <%= name.id %>
+            <%= item.id %>
           </td>
           <td>
-            <%= name.term %>
+            <%= item.term %>
           </td>
           <td>
-            <%= name.description %>
+            <%= item.description %>
           </td>
           <td>
-            <% name.references.forEach((reference) => { %>
-              <p><%= reference %></p>
-            <% }) %>
+            <% item.references.forEach((reference)=> { %>
+              <p>
+                <%= reference %>
+              </p>
+              <% }) %>
           </td>
         </tr>
-      <% }) %>
+        <% }) %>
     </tbody>
   </table>
-  
+
 </body>
 
 </html>
