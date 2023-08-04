@@ -192,7 +192,16 @@ const devopsGlossary = [
       "Bayer, M. (2011). Continuous Integration in .NET.",
     ],
   },
-  
+  {
+    id: 20,
+    term: "Monitoring and Logging",
+    description:
+      "Monitoring and Logging involve collecting, processing, aggregating, and analyzing real-time data about the state of systems and applications to ensure performance, stability, and security.",
+    references: [
+      "Chaganti, K. (2012). Monitoring with Opsview.",
+      "Zadrozny, P. (2015). Practical Logging in .NET.",
+    ],
+  },
 ];
 
 /* GET home page. */
