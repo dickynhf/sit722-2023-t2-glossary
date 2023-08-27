@@ -202,6 +202,106 @@ const devopsGlossary = [
       "Zadrozny, P. (2015). Practical Logging in .NET.",
     ],
   },
+  {
+    id: 21,
+    term: "CI/CD Pipeline",
+    description:
+      "CI/CD Pipeline is a series of processes that take the code through Continuous Integration, Continuous Testing, and Continuous Deployment, ensuring that the code is reliable and can be released into production at any time.",
+    references: [
+      "Kim, G. (2016). The DevOps Handbook: How to Create World-Class Agility, Reliability, & Security in Technology Organizations.",
+      "Fowler, M. (2006). Continuous Integration. martinfowler.com.",
+    ],
+  },
+  {
+    id: 22,
+    term: "Version Control",
+    description:
+      "Version Control is a system that records changes to files over time so that you can recall specific versions later. It allows multiple people to simultaneously work on a single project.",
+    references: [
+      "Loeliger, J., & McCullough, M. (2012). Version Control with Git: Powerful tools and techniques for collaborative software development.",
+      "Chacon, S., & Straub, B. (2014). Pro Git. Apress.",
+    ],
+  },
+  {
+    id: 23,
+    term: "Artifact Repository",
+    description:
+      "Artifact Repository is a collection of binary software artifacts and metadata stored in a defined directory structure. It is used by build and deployment tools.",
+    references: [
+      "Bailey, J. (2015). Nexus Repository Manager for Beginners.",
+      "Smith, K. (2010). Artifactory User Guide.",
+    ],
+  },
+  {
+    id: 24,
+    term: "Release Orchestration",
+    description:
+      "Release Orchestration refers to the process of coordinating the tasks related to deploying software updates from development to production in a controlled, repeatable manner.",
+    references: [
+      "Martin, D. (2016). Mastering Release Management with Team Foundation Server.",
+      "Jones, A. (2017). Effective Release Orchestration: A Guide.",
+    ],
+  },
+  {
+    id: 25,
+    term: "Infrastructure Monitoring",
+    description:
+      "Infrastructure Monitoring refers to the process of continuously overseeing the performance of computer servers, networks, and other infrastructure devices to detect and mitigate any performance issues or outages.",
+    references: [
+      "Turner, B. (2015). Infrastructure Monitoring with Zabbix.",
+      "Ward, M. (2013). Comprehensive Infrastructure Monitoring: Best Practices.",
+    ],
+  },
+  {
+    id: 26,
+    term: "Continuous Feedback",
+    description:
+      "Continuous Feedback is a practice in DevOps where team members are consistently getting feedback on their work, allowing them to improve and adapt rapidly. It's a foundational principle in agile and lean practices.",
+    references: [
+      "Kim, G. (2016). The Phoenix Project: A Novel About IT, DevOps, and Helping Your Business Win.",
+      "Rubin, K. S. (2012). Essential Scrum: A Practical Guide to the Most Popular Agile Process.",
+    ],
+  },
+  {
+    id: 27,
+    term: "Immutable Infrastructure",
+    description:
+      "Immutable Infrastructure means once a server is deployed, it is never modified, rather replaced with a new server. It emphasizes the idea of never patching live servers and instead replacing them.",
+    references: [
+      "Morris, K. (2016). Infrastructure as Code: Managing Servers in the Cloud.",
+      "Baker, P. (2014). Immutable Infrastructure: Benefits and Practices.",
+    ],
+  },
+  {
+    id: 28,
+    term: "Code Review",
+    description:
+      "Code Review is a software quality assurance practice in which one or more persons review a piece of software code to find and fix mistakes overlooked in the initial development phase.",
+    references: [
+      "Fowler, M. (2013). Code Review Best Practices. martinfowler.com.",
+      "McIntosh, S. (2016). Modern Code Review: A Case Study at Google.",
+    ],
+  },
+  {
+    id: 29,
+    term: "Site Reliability Engineering (SRE)",
+    description:
+      "SRE is a discipline that incorporates aspects of software engineering and applies them to infrastructure and operations problems. It aims to create scalable and highly reliable software systems.",
+    references: [
+      "Murphy, N. (2016). Site Reliability Engineering: How Google Runs Production Systems. O'Reilly Media, Inc.",
+      "Jones, R. (2018). SRE Practices: A Comprehensive Guide.",
+    ],
+  },
+  {
+    id: 30,
+    term: "Continuous Security",
+    description:
+      "Continuous Security refers to the process of integrating security protocols and tools into the Continuous Integration and Continuous Deployment (CI/CD) pipeline, ensuring that security checks are automated and embedded into every part of the development process.",
+    references: [
+      "Harris, B. (2017). Secure by Design: Implementing Continuous Security in DevOps.",
+      "Turner, L. (2019). Continuous Security and DevOps: Best Practices.",
+    ],
+  },
 ];
 
 /* GET home page. */
