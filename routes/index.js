@@ -302,6 +302,95 @@ const devopsGlossary = [
       "Turner, L. (2019). Continuous Security and DevOps: Best Practices.",
     ],
   },
+  {
+    id: 31,
+    term: "Kubernetes",
+    description:
+      "Kubernetes, often abbreviated as K8s, is an open-source container orchestration platform designed to automate deploying, scaling, and operating application containers. It groups containers that make up an application into logical units for easy management and discovery.",
+    references: [
+      "Kubernetes Official Documentation. (2021). What is Kubernetes?. kubernetes.io.",
+      "Burns, B., Beda, J., & Hightower, K. (2017). Kubernetes: Up and Running: Dive into the Future of Infrastructure. O'Reilly Media, Inc.",
+    ],
+  },
+  {
+    id: 32,
+    term: "Docker",
+    description:
+      "Docker is a platform that uses OS-level virtualization to deliver software in packages called containers. Containers are isolated from each other and bundle their own software, libraries, and system tools, allowing for consistency across environments.",
+    references: [
+      "Docker Official Documentation. (2021). What is Docker?. docker.com.",
+      "Turnbull, J. (2016). The Docker Book: Containerization is the new virtualization. James Turnbull.",
+    ],
+  },
+  {
+    id: 33,
+    term: "Azure Kubernetes Service (AKS)",
+    description:
+      "AKS is a managed container orchestration service provided by Azure. It simplifies deploying, scaling, and operating Kubernetes clusters in Azure, eliminating the complexity of cluster management.",
+    references: [
+      "Azure Documentation. (2021). What is Azure Kubernetes Service (AKS)?. azure.microsoft.com.",
+    ],
+  },
+  {
+    id: 34,
+    term: "Azure Container Registry (ACR)",
+    description:
+      "ACR is a managed Docker container registry service provided by Azure. It allows developers to store and manage container images, making it easier to deploy containerized applications in Azure.",
+    references: [
+      "Azure Documentation. (2021). What is Azure Container Registry?. azure.microsoft.com.",
+    ],
+  },
+  {
+    id: 35,
+    term: "Terraform",
+    description:
+      "Terraform is an open-source infrastructure as code (IaC) software tool that provides a consistent CLI workflow to manage cloud services. It codifies cloud APIs into declarative configuration files.",
+    references: [
+      "HashiCorp. (2021). Introduction to Terraform. terraform.io.",
+      "Brikman, Y. (2017). Terraform: Up & Running: Writing Infrastructure as Code. O'Reilly Media, Inc.",
+    ],
+  },
+  {
+    id: 36,
+    term: "Version Control",
+    description:
+      "Version control, also known as source control, is the practice of tracking and managing changes to code. Tools like Git allow multiple people to work on a project concurrently, without interfering with each other.",
+    references: ["Chacon, S., & Straub, B. (2014). Pro Git. Apress."],
+  },
+  {
+    id: 37,
+    term: "Deployment Pipeline",
+    description:
+      "A deployment pipeline is an automated manifestation of the process for getting software from version control to the users. It ensures that software is always in a release-ready state.",
+    references: [
+      "Fowler, M., & Humble, J. (2010). Continuous Delivery: Reliable Software Releases through Build, Test, and Deployment Automation. Addison-Wesley Professional.",
+    ],
+  },
+  {
+    id: 38,
+    term: "DevOps Toolchain",
+    description:
+      "A DevOps toolchain is a set of tools that aid in the delivery, development, and management of software applications throughout the system development life cycle, as coordinated by an organization that uses DevOps practices.",
+    references: [
+      "Kim, G., Humble, J., Debois, P., & Willis, J. (2016). The DevOps Handbook: How to Create World-Class Agility, Reliability, & Security in Technology Organizations. IT Revolution Press.",
+    ],
+  },
+  {
+    id: 39,
+    term: "Configuration Management",
+    description:
+      "Configuration management (CM) is a systems engineering process for establishing and maintaining consistency of a product's performance, functional, and physical attributes with its requirements, design, and operational information throughout its life.",
+    references: [
+      "Burgess, M. (2004). Principles of network and system administration. John Wiley & Sons.",
+    ],
+  },
+  {
+    id: 40,
+    term: "Monitoring and Logging",
+    description:
+      "Monitoring and logging refer to the practices of gathering, analyzing, and visualizing metrics and logs from software applications and infrastructure. It helps in identifying performance bottlenecks, troubleshooting issues, and ensuring system reliability.",
+    references: ["Turnbull, J. (2014). The Art of Monitoring. James Turnbull."],
+  },
 ];
 
 /* GET home page. */
