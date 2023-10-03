@@ -391,6 +391,92 @@ const devopsGlossary = [
       "Monitoring and logging refer to the practices of gathering, analyzing, and visualizing metrics and logs from software applications and infrastructure. It helps in identifying performance bottlenecks, troubleshooting issues, and ensuring system reliability.",
     references: ["Turnbull, J. (2014). The Art of Monitoring. James Turnbull."],
   },
+  {
+    id: 41,
+    term: "Blue-Green Deployment",
+    description:
+      "A release management strategy where two production environments (Blue and Green) are maintained. One serves live production traffic while the other is used for the new release. Once the new release is ready and tested, traffic is switched to the other environment.",
+    references: [
+      "Humble, J., & Farley, D. (2010). Continuous Delivery: Reliable Software Releases through Build, Test, and Deployment Automation. Addison-Wesley Professional.",
+    ],
+  },
+  {
+    id: 42,
+    term: "Canary Release",
+    description:
+      "A technique to reduce the risk of introducing a new software version in production by slowly rolling out the change to a small subset of users before rolling it out to the entire infrastructure.",
+    references: ["Fowler, M. (2017). CanaryRelease. martinfowler.com."],
+  },
+  {
+    id: 43,
+    term: "Feature Toggles",
+    description:
+      "A technique that allows teams to modify system behavior without changing code. It involves turning features on/off at runtime, enabling continuous delivery and experimentation.",
+    references: [
+      "Knight, C. (2017). Feature Toggles (aka Feature Flags). martinfowler.com.",
+    ],
+  },
+  {
+    id: 44,
+    term: "Shift-Left Testing",
+    description:
+      "An approach where testing is performed earlier in the development process. The idea is to find and fix defects early, thus reducing the cost and time of software delivery.",
+    references: [
+      "O’Riordan, C. (2018). Shift-left testing: What, why and how?. TechBeacon.",
+    ],
+  },
+  {
+    id: 45,
+    term: "Observability",
+    description:
+      "The ability to understand the internal state of a system from its external outputs. It's essential for ensuring system reliability and performance in modern cloud-native applications.",
+    references: [
+      "Honeycomb.io. (2019). The Difference Between Monitoring and Observability.",
+    ],
+  },
+  {
+    id: 46,
+    term: "Chaos Engineering",
+    description:
+      "The discipline of experimenting on a distributed system to build confidence in the system’s capability to withstand turbulent and unexpected conditions.",
+    references: [
+      "Basiri, A., Behnam, N., de Rooij, R., Hochstein, L., Kosewski, L., Reynolds, J., & Rosenthal, C. (2016). Chaos Engineering. O'Reilly Media.",
+    ],
+  },
+  {
+    id: 47,
+    term: "Service Mesh",
+    description:
+      "A dedicated infrastructure layer for handling service-to-service communication in microservices architectures, providing features like load balancing, traffic routing, and security.",
+    references: [
+      "Zhang, L., Swartzlander, G. D., & Lyons, J. (2019). Service Mesh: The Next Step in Microservices. Medium.com.",
+    ],
+  },
+  {
+    id: 48,
+    term: "Incident Management",
+    description:
+      "The process to restore normal service operation as quickly as possible after an IT service disruption, minimizing the adverse impact on business operations.",
+    references: ["ITIL Foundation: ITIL 4 Edition (2019). AXELOS."],
+  },
+  {
+    id: 49,
+    term: "Rollback Strategy",
+    description:
+      "A plan to revert changes in case of failure. It ensures that users are minimally affected when there are issues with a new release.",
+    references: [
+      "Humble, J., & Farley, D. (2010). Continuous Delivery: Reliable Software Releases through Build, Test, and Deployment Automation. Addison-Wesley Professional.",
+    ],
+  },
+  {
+    id: 50,
+    term: "A/B Testing",
+    description:
+      "A method of comparing two versions of a webpage or app against each other to determine which one performs better in terms of user engagement or other KPIs.",
+    references: [
+      "Kohavi, R., Tang, D., & Xu, Y. (2020). Trustworthy Online Controlled Experiments: A Practical Guide to A/B Testing. Cambridge University Press.",
+    ],
+  },
 ];
 
 /* GET home page. */
